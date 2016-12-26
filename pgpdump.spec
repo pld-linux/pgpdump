@@ -8,6 +8,8 @@ Source0:	http://www.mew.org/~kazu/proj/pgpdump//%{name}-%{version}.tar.gz
 # Source0-md5:	a68e04a73a01c050bc83343bb0dd2ba0
 URL:		http://www.mew.org/~kazu/proj/pgpdump/en/
 BuildRequires:	autoconf
+BuildRequires:	bzip2-devel
+BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
